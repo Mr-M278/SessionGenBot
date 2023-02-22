@@ -17,7 +17,7 @@
             "description": "Username of a group or channel for which you want to set force sub.(without @)",
             "required": true      
         }, 
-        "MONGO_URL": {
+        "MONGO_DB": {
             "description": "Get this value from cloud.mongodb.com",
             "required": true
         },
