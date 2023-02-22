@@ -1,0 +1,42 @@
+{
+  "name": "String Session Generator",
+  "description": "Telegram bot to generate string session",
+  "logo": "https://telegra.ph/file/b4c1b5ea6b35b09142a02.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Get this value from @BotFather",
+            "required": true
+        },  
+        "MUST_JOIN": {
+            "description": "Username of a group or channel for which you want to set force sub.(without @)",
+            "required": true      
+        }, 
+        "MONGO_URL": {
+            "description": "Get this value from cloud.mongodb.com",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Start @Missrose_bot in private and send /id rose give you ID paste hare.",
+            "required": true
+        }, 
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
