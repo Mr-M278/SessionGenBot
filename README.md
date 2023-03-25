@@ -4,7 +4,7 @@
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Romeo-RJ-143/SessionGenBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://dashboard.heroku.com/new?template=https://github.com/Romeo-RJ-143/SessionGenBot)
 
 -----
 
